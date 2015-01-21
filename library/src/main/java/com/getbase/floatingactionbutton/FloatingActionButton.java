@@ -48,7 +48,7 @@ public class FloatingActionButton extends ImageButton {
   String mTitle;
   @DrawableRes
   private int mIcon;
-  private Drawable mIconDrawable;
+  protected Drawable mIconDrawable;
   private int mSize;
 
   private float mCircleSize;
@@ -238,7 +238,6 @@ public class FloatingActionButton extends ImageButton {
             createOuterStrokeDrawable(strokeWidth),
             getIconDrawable()
         });
-
     int iconOffset = (int) (mCircleSize - getDimension(R.dimen.fab_icon_size)) / 2;
 
     int circleInsetHorizontal = (int) (mShadowRadius);

@@ -23,6 +23,7 @@
             <enum name="mini" value="1"/>
         </attr>
         <attr name="fab_addButtonPlusIconColor" format="color"/>
+        <attr name="fab_addButtonPlusIcon" format="reference"/>
         <attr name="fab_addButtonStrokeVisible" format="boolean"/>
         <attr name="fab_labelStyle" format="reference"/>
         <attr name="fab_expandDirection" format="enum">
